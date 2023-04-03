@@ -1,0 +1,36 @@
+.bodyContainer {
+  background-color: #082437;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 3rem 0;
+}
+
+.logoContainer {
+  text-align: center;
+}
+
+#hackLogo {
+  width: 70%;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.content h1 {
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+.content p {
+  color: #ffffff;
+  font-size: 0.8rem;
+  padding-right: 0.5rem;
+  line-height: 1.5rem;
+}
