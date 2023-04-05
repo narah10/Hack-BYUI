@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/navbar";
 import Header from "./components/header";
 import Agenda from "./components/homepage/agenda";
+import Rule from "./components/homepage/rule";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Header />
       <Agenda />
+      <Rule />
     </div>
   );
 }
