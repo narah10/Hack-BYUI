@@ -9,6 +9,7 @@ import media from "../assets/media.svg";
 import team from "../assets/team.svg";
 import home from "./homepage.module.css";
 import Rule from "./rule";
+import Slider from "./Slider";
 
 function Homepage() {
   return (
@@ -41,6 +42,7 @@ function Homepage() {
         </div>
       </div>
       <Rule />
+      <Slider />
     </div>
   );
 }
