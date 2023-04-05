@@ -9,7 +9,7 @@ function Agendaleft({purpose, body , imageurl}) {
             <p>{body}</p>
         </div>
         <div className={agendaleft.right}>
-            <img src={imageurl} alt=""/>
+            <img src={imageurl} class={agendaleft.images} alt=""/>
         </div> 
 
       
