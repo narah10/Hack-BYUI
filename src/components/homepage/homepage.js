@@ -7,9 +7,11 @@ import computer from "../assets/computer.svg";
 import lightbulb from "../assets/lightbulb.svg";
 import media from "../assets/media.svg";
 import team from "../assets/team.svg";
+import target from "../assets/target.svg";
 import home from "./homepage.module.css";
 import Rule from "./rule";
 import Slider from "./Slider";
+import Footer from "../footer";
 
 function Homepage() {
   return (
@@ -17,6 +19,10 @@ function Homepage() {
       <Navbar />
       <Header />
       <Agenda />
+      <div class={home.titles}>
+        <h2 class={home.target}>iTarget</h2>
+        <img src={target} />
+      </div>
       <div class={home.cardBackground}>
         <div class={home.cardContainer}>
           <Card
@@ -43,6 +49,7 @@ function Homepage() {
       </div>
       <Rule />
       <Slider />
+      <Footer />
     </div>
   );
 }
