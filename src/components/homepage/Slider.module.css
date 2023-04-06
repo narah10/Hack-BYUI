@@ -10,6 +10,10 @@
     height: 100%;
     white-space: nowrap;
     overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.slider::-webkit-scrollbar{
+    display: none;
 }
 .slidecard{
     width: 250px;
@@ -18,4 +22,7 @@
     border-radius: 10px ;
     display: inline-block;
     margin: 10px;
+}
+.buttonleft{
+    vertical-align: middle;
 }
