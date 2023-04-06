@@ -1,0 +1,41 @@
+.background {
+  background-color: #082437;
+  font-family: "Montserrat", sans-serif;
+}
+.backgroundContainer {
+  max-width: 80%;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.logoSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logoSection img {
+  width: 6rem;
+}
+
+#copyright {
+  color: #ffffff;
+  margin-bottom: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+}
+
+.link a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-top: 0.3rem;
+}

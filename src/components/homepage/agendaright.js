@@ -8,7 +8,7 @@ function Agendaright({ purpose, body, imageurl }) {
         <img src={imageurl} class={agendaright.images} alt="" />
       </div>
       <div className={agendaright.right}>
-        <h2>{purpose}</h2>
+        <h3>{purpose}</h3>
         <p>{body}</p>
       </div>
     </div>

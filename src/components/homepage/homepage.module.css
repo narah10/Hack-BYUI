@@ -1,11 +1,39 @@
-.cardContainer {
-  max-width: 60%;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 5px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+body {
+  font-family: "Montserrat", sans-serif;
 }
+
+/*Titles*/
+
+.titles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.target {
+  font-size: 2.5rem;
+}
+
+.target img {
+  width: 5%;
+  padding: 0px;
+  margin: 0px;
+}
+
 .cardBackground {
   background-color: #edf8ff;
+  max-width: 100%;
+}
+
+/*individual cards*/
+.cardContainer {
+  max-width: 50%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2rem;
+  padding: 2.5rem 0;
 }
