@@ -1,28 +1,53 @@
-.container{
-    width: 75%;
-    margin: 0 auto;
-    padding: 0 ;
-    display: flex;
-    background-color: #EDF8FF;
+.overallContainer {
+  background-color: #edf8ff;
 }
-.slider{
-    width: 100%;
-    height: 100%;
-    white-space: nowrap;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
+
+.container {
+  width: 80%;
+  margin: 2rem auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
 }
-.slider::-webkit-scrollbar{
-    display: none;
+.slider {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
 }
-.slidecard{
-    width: 250px;
-    height: 200px;
-    background-color: white;
-    border-radius: 10px ;
-    display: inline-block;
-    margin: 10px;
+.slider::-webkit-scrollbar {
+  display: none;
 }
-.buttonleft{
-    vertical-align: middle;
+.slidecard {
+  width: 250px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.slidecard img {
+  width: 80%;
+}
+.buttonleft {
+  vertical-align: middle;
+}
+
+/*arrow buttons*/
+.buttonright img {
+  max-width: 3rem;
+  margin: 1rem;
+}
+
+.buttonleft img {
+  max-width: 3rem;
+  margin: 1rem;
+}
+
+.buttonright:hover,
+.buttonleft:hover {
+  cursor: pointer;
 }
