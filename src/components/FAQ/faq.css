@@ -1,0 +1,33 @@
+.faq-accordion {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  background-color: #eee;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.open {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+
