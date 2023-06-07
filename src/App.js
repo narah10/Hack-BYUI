@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import Categories from "./components/Categories/categories";
-
+import Homepage from "./components/homepage/homepage";
 
 function App() {
   return (
     <div>
-      <Categories />
+      <Homepage />
     </div>
   );
 }
