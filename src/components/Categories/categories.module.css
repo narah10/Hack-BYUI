@@ -1,0 +1,19 @@
+.box{
+    display: grid;
+    max-width: 80%;
+    padding-top: 2%;
+    padding: 2%;
+    padding-bottom:3% ;
+    margin: 1.5rem auto;
+    background-color:#EDF8FF ;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.box b{
+    font-size: 2rem;
+    color: #18A0FB;
+    padding-left: 30px;
+}
+.box p{
+    font-size: 0.8rem;
+}
