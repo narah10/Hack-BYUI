@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from "../navbar";
 import Header from "../header";
 import Agendaleft from '../homepage/agendaleft';
-import Learnimage from '../assets/Learnimage.svg';
+import Learnimage from '../assets/computerboy.svg';
 import Footer from '../footer';
 import Purpose from './purpose';
 import categoriess from './categories.module.css'
@@ -13,8 +13,8 @@ function categories() {
       <Navbar />
       <Header />
       <Agendaleft
-        purpose="1. To have Fun"
-        body=" If you're looking to participate in a hackathon, you're in for a fun and creative experience! Programming is an essential component of hackathons, and it can be a lot of fun to work on exciting projects with other participants who share similar interests. You'll get to geek out with others and come up with innovative solutions to real-world problems. So, if you enjoy programming and being creative, why not join in and have some fun at the next hackathon?"
+        purpose="Categories"
+        body=" The hackathon will feature four challenge categories that focus on different aspects of computing in the community. These categories are Learning and Academic, Innovation and Creativity, Media and Communication, and Collaboration and Leadership. Here are some examples of what can be created in each category:"
         imageurl={Learnimage}
       />
       <Purpose 
