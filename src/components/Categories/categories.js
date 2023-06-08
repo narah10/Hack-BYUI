@@ -17,6 +17,8 @@ function categories() {
         body=" The hackathon will feature four challenge categories that focus on different aspects of computing in the community. These categories are Learning and Academic, Innovation and Creativity, Media and Communication, and Collaboration and Leadership. Here are some examples of what can be created in each category:"
         imageurl={Learnimage}
       />
+
+      <div className={categoriess.purposeContainer}>
       <Purpose 
       heading = "Learning and Academic"
       goal="To develop innovative solutions that enhance the quality and accessibility of education and improve the learning experience for students of all ages and backgrounds." 
@@ -37,15 +39,16 @@ function categories() {
       goal="To foster the development of solutions that encourage collaboration, teamwork, and leadership among individuals and groups, and promote the development of essential skills for success in the 21st century workplace."
       purpose="The purpose of this category is to encourage participants to think about the importance of collaboration and leadership in a world where teamwork and effective communication are essential for success. By creating solutions such as project management apps, mentorship websites, or leadership skills development platforms, participants can help to equip individuals and teams with the skills they need to succeed in their personal and professional lives. Through their work, participants can contribute to building a more collaborative and inclusive society, where everyone can reach their full potential."
       />
+      </div>
       <div className={categoriess.box}>
         <b>Categories Rubric</b>
           <p>
             <ul>
               <li>Working Product/Prototype: Is the solution functional and solving the intended problem? (30 points)</li>
-              <li><br/>Customer Communication: How well does the team understand the needs and wants of their target audience? (20 points)</li>
-              <li><br/>Creative Problem-Solving: Is the solution innovative and tackling the problem in a unique way? (15 points)</li>
-              <li><br/>User Aesthetics: Does the product have an appealing design and user interface? (15 points)</li>
-              <li><br/>Presentation/Documentation: How well did the team present their solution and explain their thought process? (20 points)</li>
+              <li>Customer Communication: How well does the team understand the needs and wants of their target audience? (20 points)</li>
+              <li>Creative Problem-Solving: Is the solution innovative and tackling the problem in a unique way? (15 points)</li>
+              <li>User Aesthetics: Does the product have an appealing design and user interface? (15 points)</li>
+              <li>Presentation/Documentation: How well did the team present their solution and explain their thought process? (20 points)</li>
             </ul>
           </p>
       </div>
