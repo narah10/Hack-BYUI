@@ -26,6 +26,9 @@ function Navbar() {
         <Link to="/Location">
           <a>Location</a>
         </Link>
+        <Link to="/Catergories">
+         <a>Categories</a>
+        </Link>
       </div>
       <div className={navbar.registerButtonDiv}>
         <button>Pre-Register</button>
