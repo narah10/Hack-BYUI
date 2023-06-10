@@ -16,7 +16,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -30,9 +29,30 @@
 
 .faq-answer {
   background-color: #EDF8FF;
-  border-radius: 10px;
   padding: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 
+
+/* -------------------------------------------------------- */
+
+/* S M A L L   V I E W */
+@media screen and (max-width: 37.5em) {
+  
+
+}
+
+/* -------------------------------------------------------- */
+
+/* M E D I U M   V I E W */
+@media only screen and (min-width: 37.5em) {
+
+}
+
+/* -------------------------------------------------------- */
+
+/* L A R G E   V I E W */
+@media only screen and (min-width: 64em) {
+
+}
