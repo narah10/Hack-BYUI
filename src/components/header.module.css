@@ -35,7 +35,40 @@
 
 .content p {
   color: #ffffff;
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding-right: 0.5rem;
   line-height: 1.5rem;
+}
+
+/* -------------------------------------------------------- */
+
+/* S M A L L   V I E W */
+@media screen and (max-width: 37.5em) {
+  .container {
+    /* max-width: 50%; */
+    min-width: 50%;
+    min-height: unset;
+    width: unset;
+  }
+  
+
+}
+
+/* -------------------------------------------------------- */
+
+/* M E D I U M   V I E W */
+@media only screen and (min-width: 37.5em) {
+  .container {
+    max-width: 80%;
+    min-height: unset;
+    width: 95%;
+  }
+
+}
+
+/* -------------------------------------------------------- */
+
+/* L A R G E   V I E W */
+@media only screen and (min-width: 64em) {
+
 }

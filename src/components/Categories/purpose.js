@@ -6,7 +6,7 @@ function purpose({heading, goal, purpose }) {
     <div className={purposes.container}>
       <h1>{heading}</h1>
       <p><b>Goal - </b>{goal}</p>
-      <p><b>purpose - </b>{purpose}</p>
+      <p><b>Purpose - </b>{purpose}</p>
     </div>
   )
 }
