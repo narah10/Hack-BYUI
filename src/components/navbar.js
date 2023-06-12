@@ -13,7 +13,7 @@ function Navbar() {
         <Link to="/Homepage">
           <a>Home</a>
         </Link>
-        <Link to="/Schedule">
+        <Link to="">
           <a>Agenda</a>
         </Link>
 
@@ -22,16 +22,17 @@ function Navbar() {
         </Link>
 
         <a href="#">Sponsor</a>
-        <a href="#">Volunteer</a>
-        <Link to="/Location">
+        {/* <a href="#">Volunteer</a> */}
+        {/* <Link to="/Location">
           <a>Location</a>
-        </Link>
-        <Link to="/Catergories">
+        </Link> */}
+        {/* <Link to="/Catergories">
          <a>Categories</a>
-        </Link>
+         
+        </Link> */}
       </div>
       <div className={navbar.registerButtonDiv}>
-        <button>Pre-Register</button>
+        <button><Link to="https://www.eventbrite.com/e/hack-byu-i-tickets-601636108797">Pre-Register</Link></button>
       </div>
     </div>
   );

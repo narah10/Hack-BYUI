@@ -24,16 +24,46 @@ body {
 
 .cardBackground {
   background-color: #edf8ff;
-  max-width: 100%;
+  min-width: 100%;
+  margin-bottom: 1rem;
+  padding: 2rem 0;
 }
 
 /*individual cards*/
 .cardContainer {
-  max-width: 50%;
-  margin: 2rem auto;
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 2rem;
-  padding: 2.5rem 0;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  padding: 2rem 0;
 }
+
+/* -------------------------------------------------------- */
+
+/* M E D I U M   V I E W */
+@media only screen and (min-width: 37.5em) {
+
+}
+
+/* -------------------------------------------------------- */
+
+/* L A R G E   V I E W */
+@media only screen and (min-width: 64em) {
+  .cardContainer {
+    max-width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:none;
+    grid-column-gap: 2rem;
+    grid-row-gap: 0rem;
+    padding: 2.5rem 0;
+  }
+
+  .cardBackground {
+    margin-bottom: 6rem;
+  }
+}
+

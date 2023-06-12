@@ -1,31 +1,25 @@
 import React from "react";
-import logo from "./assets/hackathon_logo.png";
 import header from "./header.module.css";
-import byui from "./assets/logo.svg";
 
 function Header() {
   return (
     <div className={header.bodyContainer}>
       <div className={header.container}>
-        <div className={header.logoContainer}>
-          <img src={byui} id={header.hackLogo} />
+        <div className={header.mainHeader}>
+          <h1>I-Hack</h1>
+          <h2>2023</h2>
+          <h3>Oct 20th - 21st</h3>
         </div>
         <div className={header.content}>
-          <h1>Hack BYU-I</h1>
+          <h2>Welcome</h2>
           <p>
-            The Hack BYU-I is a unique opportunity to engage in a fun and
-            creative experience that combines learning, networking, and
-            problem-solving challenges. Participants will get to work with
-            like-minded individuals, attend workshops and guest speaker events
-            to learn new skills, and network with professionals and companies.
-            <br />
-            The hackathon offers a platform for participants to showcase their
-            creativity, teamwork, and problem-solving skills while having fun
-            and potentially discovering new career opportunities. Overall, the
-            BYU-I Hackathon promises to be an exciting event that fosters
-            collaboration, innovation, and learning in a dynamic and supportive
-            environment.
+            I-Hack is an exciting event that combines learning, 
+            networking, and problem-solving. Participants collaborate with 
+            like-minded individuals, attend workshops, and network with 
+            professionals. It's a platform to showcase skills, have fun, and 
+            explore career opportunities in a dynamic environment.
           </p>
+          <button>Pre-Register</button>
         </div>
       </div>
     </div>

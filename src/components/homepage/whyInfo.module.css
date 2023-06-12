@@ -1,0 +1,41 @@
+.title h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.bodycontainer {
+  max-width: 80%;
+  margin: 5rem auto;
+  padding: 0;
+}
+
+/*card container*/
+.cardContained {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+}
+
+
+
+/* -------------------------------------------------------- */
+
+/* M E D I U M   V I E W */
+@media only screen and (min-width: 37.5em) {
+
+}
+
+/* -------------------------------------------------------- */
+
+/* L A R G E   V I E W */
+@media only screen and (min-width: 64em) {
+  .cardContained {
+    max-width: 80%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+}
