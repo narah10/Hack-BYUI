@@ -6,7 +6,6 @@ function Card({ imageurl, title, body }) {
     <div className={card.container}>
       <img src={imageurl} alt="" class={card.cardStyle} />
       <h3>{title}</h3>
-      <p>{body}</p>
     </div>
   );
 }

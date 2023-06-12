@@ -3,13 +3,13 @@
   font-family: "Montserrat", sans-serif;
 }
 .backgroundContainer {
-  max-width: 80%;
   color: #ffffff;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
-  margin: 0 auto;
   padding: 2rem 0;
+  text-align: center;
 }
 
 .logoSection {
@@ -38,4 +38,28 @@
   text-decoration: none;
   color: #ffffff;
   padding-top: 0.3rem;
+}
+
+/* -------------------------------------------------------- */
+
+/* M E D I U M   V I E W */
+@media only screen and (min-width: 37.5em) {
+
+
+}
+
+/* -------------------------------------------------------- */
+
+/* L A R G E   V I E W */
+@media only screen and (min-width: 64em) {
+  .backgroundContainer {
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: none;
+    grid-gap: 1rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: left;
+  }
 }

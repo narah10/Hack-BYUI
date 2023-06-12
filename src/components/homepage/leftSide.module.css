@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+.container {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+}
+
+
+.right {
+  text-align: center;
+}
+.right h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.right p {
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+  line-height: 1rem;
+}
+
+.left {
+  text-align: center;
+}
+
+.images {
+  width: 70%;
+}
+
+
+/* -------------------------------------------------------- */
+
+/* M E D I U M   V I E W */
+@media only screen and (min-width: 37.5em) {
+
+}
+
+/* -------------------------------------------------------- */
+
+/* L A R G E   V I E W */
+@media only screen and (min-width: 64em) {
+  .container {
+    max-width: 80%;
+    margin: 1.5rem auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1.5fr 2fr;
+    grid-template-rows: none;
+  }
+
+  .right {
+    text-align: left;
+  }
+
+  .images {
+    width: 90%;
+  }
+
+  .right p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
+}

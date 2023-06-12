@@ -1,39 +1,100 @@
 import React from "react";
-import agenda from "./agenda.module.css";
-import Agendaleft from "./agendaleft";
-import Agendaright from "./agendaright";
-import Funimage from "../assets/Funimage.svg";
-import Learnimage from "../assets/Learnimage.svg";
-import Networkimage from "../assets/networkimage.svg";
-import Challengimage from "../assets/challengimage.svg";
-
+import agenda from "./agenda.module.css"
 function Agenda() {
   return (
-    <div className={agenda.bodycontainer}>
-      <div className={agenda.title}>
-        <h2>Why BYU-I Hackathon? </h2>
-      </div>
-      <Agendaleft
-        purpose="1. To have Fun"
-        body=" If you're looking to participate in a hackathon, you're in for a fun and creative experience! Programming is an essential component of hackathons, and it can be a lot of fun to work on exciting projects with other participants who share similar interests. You'll get to geek out with others and come up with innovative solutions to real-world problems. So, if you enjoy programming and being creative, why not join in and have some fun at the next hackathon?"
-        imageurl={Funimage}
-      />
-      <Agendaright
-        purpose="2. To Learn"
-        body="At the hackathon, there will be plenty of opportunities to learn from our guest speakers, workshops, and other participants. It's a great chance to expand your knowledge and learn new skills in a fun and engaging environment. So, come join us and learn from some of the best minds in the industry and from each other!"
-        imageurl={Learnimage}
-      />
-      <Agendaleft
-        purpose="3. To Network"
-        body="Networking is an essential aspect of hackathons. It's a great opportunity to meet professionals, companies, classmates, and other students who share your interests. You'll get to exchange ideas, collaborate on projects, and even find potential career opportunities. So, come join us and network with a diverse group of people while having fun and learning new things at the hackathon!"
-        imageurl={Networkimage}
-      />
-      <Agendaright
-        purpose="4. To Be Challenged"
-        body="If you're looking for a challenge, participating in a hackathon is the perfect opportunity! You'll get to work with other like-minded individuals to competitively hack together a prototype that solves a real-world problem. At the end of the event, you'll have the satisfaction of knowing that you're a problem solver and that your hard work and creativity have contributed to a meaningful solution. So, take up the challenge and come join us at the hackathon!"
-        imageurl={Challengimage}
-      />
+    <div className={agenda.container}>
+        <h3>Agenda</h3>
+        <p>We will be updating this schedule as it is not 
+            finalized yet. Stay tuned for future announcements.</p>
+        <div class={agenda.bothContainer}>
+            <div className={agenda.day1}>
+                <div className={agenda.title}>
+                    <h4>Day 1</h4>
+                    <p>Friday, October 20th (MST)</p>
+                </div>
+                <div className={agenda.schedule}>
+                    <div class={agenda.split}>
+                        <p>4:30 PM - 5:30 PM</p>
+                        <p>Check-in & Open Social
+                        </p>
+                    </div>
+                    <div class={agenda.split}>
+                        <p>5:30 PM - 6:00 PM</p>
+                        <p>Hackathon Kickoff and Coding Begins <br/>
+                        </p>
+                    </div>
+                    <div class={agenda.split}>
+                        <p>7:00 PM - 8:00 PM</p>
+                        <p>Workshop 1 </p>
+                    </div>
+                    <div class={agenda.split}>
+                        <p>8:20 PM - 8:30 PM</p>
+                        <p>Mini Game 1 </p>
+                    </div>
+                    <div class={agenda.split}>
+                        <p>9:00 PM - 10:00 PM</p>
+                        <p>Workshop 2</p>
+                    </div>
+                    <div class={agenda.split}>
+                        <p>10:00 PM - 6:00 AM</p>
+                        <p>Overnight Hacking</p>
+                    </div>
+                </div>
+            </div>
+            <div className={agenda.day2}>
+                <div className={agenda.title}>
+                    <h4>Day 2</h4>
+                    <p>Saturday, October 21st (MST)</p>
+                </div>
+                <div className={agenda.schedule}>
+                <div class={agenda.split}>
+                    <p>12:00 AM - 12:15 AM</p>
+                    <p>Mini Game 2
+                    </p>
+                </div>
+                <div class={agenda.split}>
+                    <p>4:00 AM - 4:15 AM</p>
+                    <p>Mini Game 3
+                    </p>
+                </div>
+                <div class={agenda.split}>
+                    <p>7:00 AM - 8:00 AM</p>
+                    <p>Breakfast 
+                    </p>
+                </div>
+                <div class={agenda.split}>
+                    <p>9:00 AM - 10:00 AM</p>
+                    <p>Workshop 3 </p>
+                </div>
+                <div class={agenda.split}>
+                    <p>12:00 PM - 1:00 PM</p>
+                    <p>Lunch</p>
+                </div>
+                <div class={agenda.split}>
+                    <p>5:00 PM - 5:30 AM</p>
+                    <p>Reminder of the end of the competition</p>
+                </div>
+                <div class={agenda.split}>
+                    <p>5:30 PM - 6:00 PM</p>
+                    <p>End of Competition </p>
+                </div>
+                <div class={agenda.split}>
+                    <p>6:00 PM - 7:00 PM</p>
+                    <p>Judging and Dinner</p>
+                </div>
+                <div class={agenda.split}>
+                    <p>7:00 PM - 8:00 PM</p>
+                    <p>Award Ceremony</p>
+                </div>
+                <div class={agenda.split}>
+                    <p>8:00 PM - 9:00 PM</p>
+                    <p>Event Conclusion</p>
+                </div>
+            </div>
+            </div>
+        </div>
     </div>
+    
   );
 }
 

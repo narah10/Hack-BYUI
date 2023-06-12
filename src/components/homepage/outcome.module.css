@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: .5rem;
+    max-width: 100%;
+  }
+  
+  .cardStyle {
+    width: 40%;
+  }
+  
+  h3 {
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  
+  /* -------------------------------------------------------- */
+
+/* M E D I U M   V I E W */
+@media only screen and (min-width: 37.5em) {
+
+}
+
+/* -------------------------------------------------------- */
+
+/* L A R G E   V I E W */
+@media only screen and (min-width: 64em) {
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .cardStyle {
+    width: 60%;
+  }
+  
+}

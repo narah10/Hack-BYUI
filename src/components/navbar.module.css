@@ -10,9 +10,10 @@
 
 /*Logo*/
 .logoContainer img {
-  margin-left: auto;
-  margin-right: auto;
+  width: 50px;
+  margin: auto;
 }
+
 
 /*Links*/
 .linksContainer {
@@ -66,7 +67,7 @@ button {
 
   /*Logo*/
   .logoContainer img {
-    width: 30%;
+    width: 50px;
     /* max-width: 30%;
     min-width: 30%; */
     padding-left: 40%;
@@ -95,8 +96,7 @@ button {
 
   /*Logo*/
   .logoContainer img {
-    max-width: 30%;
-    min-width: 30%;
+    width: 100px;
     padding-left: 50%;
   }
 

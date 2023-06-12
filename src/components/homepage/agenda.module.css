@@ -1,10 +1,84 @@
-.title h2 {
-  font-size: 2.5rem;
-  text-align: center;
+.container {
+    max-width: 80%;
+    margin: 5rem auto;
 }
 
-.bodycontainer {
-  max-width: 80%;
-  margin: 5rem auto;
-  padding: 0;
+.container>h3, .container>p  {
+    text-align: center;
+}
+
+.bothContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.day1 , .day2 {
+    background-color: #082437;
+    color: #ffffff;
+    width: 100%;
+    border-radius: 20px;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+.title {
+    text-align: left;
+}
+
+.title h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0.5rem 0;
+}
+
+.title p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.title h4 {
+    color: #18A0FB;
+}
+.split {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+
+/* M E D I U M   V I E W */
+@media only screen and (min-width: 37.5em) {
+
+}
+
+/* -------------------------------------------------------- */
+
+/* L A R G E   V I E W */
+@media only screen and (min-width: 64em) {
+    .bothContainer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+        padding: 1rem;
+    }
+
+    .day1 , .day2 {
+        width: 70%;
+    }
+
+    .day1 {
+        margin: 0 auto;
+        margin-right: 0px;
+    }
+
+    .day2 {
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+
+    .container>h3 {
+        font-size: 2rem;
+        font-weight: 700;
+      }
 }
