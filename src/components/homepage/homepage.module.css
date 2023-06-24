@@ -22,11 +22,16 @@ body {
   margin: 0px;
 }
 
+.moreInfo {
+  text-align: center;
+}
+
 .cardBackground {
   background-color: #edf8ff;
   min-width: 100%;
   margin-bottom: 1rem;
   padding: 2rem 0;
+  text-align: center;
 }
 
 /*individual cards*/

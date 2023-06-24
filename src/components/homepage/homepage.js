@@ -26,6 +26,11 @@ function Homepage() {
         <h2 class={home.target}>iTarget</h2>
         <img src={target} />
       </div>
+      <div class={home.moreInfo}>
+        <p>The hackathon will feature four challenge categories that focus on 
+          different aspects of computing in the community. </p>
+          {/* <button><Link to="/Categories">Explore Categories</Link></button> */}
+        </div>
       <div class={home.cardBackground}>
         <div class={home.cardContainer}>
           <Card
@@ -45,7 +50,7 @@ function Homepage() {
             title="Collaboration and Leadership"
           />
         </div>
-        <button><Link to="/Categories">Explore Categories</Link></button>
+        
       </div>
       <LeftSide purpose="Register Now" body="Are you excited to demonstrate your 
       problem-solving skills in a friendly and collaborative environment? 

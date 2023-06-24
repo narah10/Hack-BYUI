@@ -19,7 +19,6 @@ function Header() {
             professionals. It's a platform to showcase skills, have fun, and 
             explore career opportunities in a dynamic environment.
           </p>
-          <button>Pre-Register</button>
         </div>
       </div>
     </div>

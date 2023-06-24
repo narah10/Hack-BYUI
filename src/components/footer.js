@@ -1,6 +1,7 @@
 import React from "react";
 import footer from "./footer.module.css";
 import ihack from "./assets/ihack-logo.png"
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -18,10 +19,19 @@ function Footer() {
         <div>
           <h3>Links</h3>
           <div class={footer.link}>
-            <a href="#">Home</a>
-            <a href="#">Agenda</a>
-            <a href="#">FAQ</a>
-            <a href="#">Sponsor</a>
+          <Link to="/Homepage">
+          <a>Home</a>
+        </Link>
+        <Link to="/Categories">
+          <a>Categories</a>
+        </Link>
+
+        <Link to="/FAQ">
+          <a>FAQ</a>
+        </Link>
+        <Link to="">
+          <a>Gallery</a>
+        </Link>
             {/* <a href="#">Volunteer</a>
             <a href="#">Location</a> */}
           </div>

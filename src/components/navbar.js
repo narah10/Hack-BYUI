@@ -13,15 +13,17 @@ function Navbar() {
         <Link to="/Homepage">
           <a>Home</a>
         </Link>
-        <Link to="/Agenda">
-          <a>Agenda</a>
+        <Link to="/Categories">
+          <a>Categories</a>
         </Link>
 
         <Link to="/FAQ">
           <a>FAQ</a>
         </Link>
+        <Link to="">
+          <a>Gallery</a>
+        </Link>
 
-        <a href="#">Sponsor</a>
         {/* <a href="#">Volunteer</a> */}
         {/* <Link to="/Location">
           <a>Location</a>

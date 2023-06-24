@@ -58,7 +58,7 @@ button {
   .backgroundContainer {
     max-width: 80%;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr .5fr 1fr;
     grid-template-rows: none;
     grid-gap: 1rem;
     margin: 0 auto;
