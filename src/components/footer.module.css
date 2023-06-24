@@ -1,6 +1,7 @@
 .background {
   background-color: #082437;
   font-family: "Montserrat", sans-serif;
+  margin-top: 8rem;
 }
 .backgroundContainer {
   color: #ffffff;
@@ -11,15 +12,12 @@
   padding: 2rem 0;
   text-align: center;
 }
-
-.logoSection {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.logoSection{
+  text-align: center;
 }
 
 .logoSection img {
-  width: 6rem;
+  width: 50%;
 }
 
 #copyright {
@@ -27,6 +25,7 @@
   margin-bottom: 0;
   padding: 1rem;
   text-align: center;
+  margin-top: 0;
 }
 
 .link {
@@ -38,6 +37,10 @@
   text-decoration: none;
   color: #ffffff;
   padding-top: 0.3rem;
+}
+
+button {
+  cursor: pointer;
 }
 
 /* -------------------------------------------------------- */

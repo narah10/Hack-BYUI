@@ -13,6 +13,8 @@ import home from "./homepage.module.css";
 import LeftSide from "./leftSide";
 import Agenda from "./agenda";
 import Footer from "../footer";
+import Sponsor from "../Sponsor/sponsor"
+import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
@@ -43,6 +45,7 @@ function Homepage() {
             title="Collaboration and Leadership"
           />
         </div>
+        <button><Link to="/Categories">Explore Categories</Link></button>
       </div>
       <LeftSide purpose="Register Now" body="Are you excited to demonstrate your 
       problem-solving skills in a friendly and collaborative environment? 
@@ -55,6 +58,7 @@ function Homepage() {
       while making a meaningful difference."
       imageurl={register}/>
       <Agenda/>
+      <Sponsor/>
       <Footer />
     </div>
   );

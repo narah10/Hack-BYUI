@@ -1,19 +1,19 @@
 import React from "react";
 import navbar from "./navbar.module.css";
-import byuiLogo from "./assets/byui_logo.png";
+import ihack from "./assets/ihack-logo.png"
 import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className={navbar.container}>
       <div className={navbar.logoContainer}>
-        <img src={byuiLogo} />
+        <img src={ihack} />
       </div>
       <div className={navbar.linksContainer}>
         <Link to="/Homepage">
           <a>Home</a>
         </Link>
-        <Link to="">
+        <Link to="/Agenda">
           <a>Agenda</a>
         </Link>
 

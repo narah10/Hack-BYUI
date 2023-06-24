@@ -4,7 +4,8 @@ import React from "react";
 import Homepage from "./components/homepage/homepage";
 import FAQ from "./components/FAQ/faq";
 import Location from "./components/Location/location";
-import Catergories from "./components/Categories/categories";
+import Categories from "./components/Categories/categories";
+import Agenda from "./components/homepage/agenda";
 
 export default function Hackathon() {
   return (
@@ -14,7 +15,8 @@ export default function Hackathon() {
         <Route path="/Homepage" element={<Homepage />} />
         <Route path="/FAQ" element={<FAQ />} />
         <Route path="/Location" element={<Location />} />
-        <Route path="/Catergories" element={<Catergories />} />
+        <Route path="/Agenda" element={<Agenda />} />
+        <Route path="/Categories" element={<Categories />} />
       </Routes>
     </Router>
   );
