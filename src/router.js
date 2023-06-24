@@ -5,6 +5,7 @@ import Homepage from "./components/homepage/homepage";
 import FAQ from "./components/FAQ/faq";
 import Location from "./components/Location/location";
 import Catergories from "./components/Categories/categories";
+import Team from "./components/Team/team";
 
 export default function Hackathon() {
   return (
@@ -15,6 +16,7 @@ export default function Hackathon() {
         <Route path="/FAQ" element={<FAQ />} />
         <Route path="/Location" element={<Location />} />
         <Route path="/Catergories" element={<Catergories />} />
+        <Route path="/Team" element={<Team />}/> 
       </Routes>
     </Router>
   );
