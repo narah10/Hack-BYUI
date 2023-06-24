@@ -1,6 +1,7 @@
 import React from "react";
 import footer from "./footer.module.css";
 import byui from "./assets/logo.svg";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -26,7 +27,7 @@ function Footer() {
         </div>
         <div>
           <h3>Our Team</h3>
-          <p>Want to meet the amazing team that made all this happen?</p>
+          <Link to="/team"><p>Want to meet the amazing team that made all this happen?</p></Link>
         </div>
       </div>
       <p id={footer.copyright}>

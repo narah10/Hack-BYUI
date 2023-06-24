@@ -4,6 +4,8 @@ import Header from '../header';
 import Footer from '../footer';
 import Team from './member.module.css';
 import Member from './member';
+import one from '../assets/1.png';
+import two from '../assets/2.png';
 
 function team() {
   return (
@@ -17,9 +19,8 @@ function team() {
         <div className={Team.facuty}>
             <h1> Facuty </h1>
             <div className={Member.people}>
-                <Member/>
-                <Member/>
-                <Member/>
+                <Member image={one} name="Kimberly" role="test" linked="https://www.linkedin.com/in/tyler-english-62b758230"/>
+                <Member image={two} name="second " role ="test2" />
             
             </div>
         </div>
