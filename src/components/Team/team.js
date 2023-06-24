@@ -19,6 +19,7 @@ function team() {
             <div className={Member.people}>
                 <Member/>
                 <Member/>
+                <Member/>
             
             </div>
         </div>

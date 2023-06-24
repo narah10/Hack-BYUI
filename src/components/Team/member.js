@@ -15,8 +15,8 @@ function member() {
           <a href="https://www.linkedin.com/">
             <img src={Linkedin} alt=''/>
           </a>
-        </div>
-        <div className={Member.linkbox} >
+      </div>
+      <div className={Member.linkbox} >
           <a href="https://github.com/">
             <img src={Github} alt=''/>
           </a>
