@@ -10,4 +10,8 @@
     white-space: nowrap;
     overflow-x: scroll;
     scroll-behavior: smooth;
+    display: inline;
+}
+.facuty Member{
+    display: inline-block;
 }

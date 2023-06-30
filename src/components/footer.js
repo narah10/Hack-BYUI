@@ -39,7 +39,7 @@ function Footer() {
         <div>
           <h3>Our Team</h3>
           <p>Want to meet the amazing team that made all this happen?</p>
-          <button><a href="#">Learn More</a></button>
+          <button><a href="/Team">Learn More</a></button>
         </div>
       </div>
       <p id={footer.copyright}>
