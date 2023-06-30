@@ -1,6 +1,6 @@
 import React from "react";
 import footer from "./footer.module.css";
-import byui from "./assets/logo.svg";
+import ihack from "./assets/ihack-logo.png"
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -8,26 +8,38 @@ function Footer() {
     <div class={footer.background}>
       <div class={footer.backgroundContainer}>
         <div class={footer.logoSection}>
-          <img src={byui} />
-          <h1>Hack BYU-I</h1>
+          <img src={ihack} />
         </div>
         <div>
           <h3>Contact</h3>
+          <p>Instagram</p>
+          <p>hackbyui-csee-cit@webmailbyui.onmicrosoft.com</p>
+          <p>Address</p>
         </div>
         <div>
           <h3>Links</h3>
           <div class={footer.link}>
-            <a href="#">Home</a>
-            <a href="#">Agenda</a>
-            <a href="#">FAQ</a>
-            <a href="#">Sponsor</a>
-            <a href="#">Volunteer</a>
-            <a href="#">Location</a>
+          <Link to="/Homepage">
+          <a>Home</a>
+        </Link>
+        <Link to="/Categories">
+          <a>Categories</a>
+        </Link>
+
+        <Link to="/FAQ">
+          <a>FAQ</a>
+        </Link>
+        <Link to="">
+          <a>Gallery</a>
+        </Link>
+            {/* <a href="#">Volunteer</a>
+            <a href="#">Location</a> */}
           </div>
         </div>
         <div>
           <h3>Our Team</h3>
-          <Link to="/team"><p>Want to meet the amazing team that made all this happen?</p></Link>
+          <p>Want to meet the amazing team that made all this happen?</p>
+          <button><a href="#">Learn More</a></button>
         </div>
       </div>
       <p id={footer.copyright}>

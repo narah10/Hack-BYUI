@@ -80,7 +80,7 @@ function FAQ() {
       <div className="faq-accordion">
         <h1>Frequently Asked Questions</h1>
         {faqData.map((faq, index) => (
-          <FaqItem key={index} question={faq.question} answer={faq.answer} />
+          <FaqItem key={index} question={faq.question} answer={faq.answer} style={{fontSize: "1rem"}}/>
         ))}
       </div>
       <Footer />
