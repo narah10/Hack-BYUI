@@ -38,6 +38,9 @@
   color: #ffffff;
   padding-top: 0.3rem;
 }
+.link p {
+  color: #ffffff;
+}
 
 button {
   cursor: pointer;

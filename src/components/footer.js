@@ -12,9 +12,9 @@ function Footer() {
         </div>
         <div>
           <h3>Contact</h3>
-          <p>Instagram</p>
-          <p>hackbyui-csee-cit@webmailbyui.onmicrosoft.com</p>
-          <p>Address</p>
+          <Link to="https://instagram.com/hack_byui?igshid=Y2IzZGU1MTFhOQ=="><p>Instagram</p></Link>
+          <a href="mailto:hackbyui-csee-cit@webmailbyui.onmicrosoft.com">Email</a>
+          <Link to="https://goo.gl/maps/uERoM6fRCYwzxXqy6"><p>142 S 2nd St E, Rexburg, ID 83460</p></Link>
         </div>
         <div>
           <h3>Links</h3>
