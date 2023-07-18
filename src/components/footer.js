@@ -1,14 +1,14 @@
 import React from "react";
 import footer from "./footer.module.css";
-import ihack from "./assets/ihack-logo.png"
+import ihack from "./assets/ihack.png"
 import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div class={footer.background}>
+    <div class={footer.Footerbackground}>
       <div class={footer.backgroundContainer}>
         <div class={footer.logoSection}>
-          <img src={ihack} />
+          <img src={ihack} style={{ width: '40%'}}/>
         </div>
         <div>
           <h3>Contact</h3>
