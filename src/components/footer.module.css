@@ -1,4 +1,4 @@
-.background {
+.Footerbackground {
   background-color: #082437;
   font-family: "Montserrat", sans-serif;
   margin-top: 8rem;
@@ -33,13 +33,18 @@
   flex-direction: column;
 }
 
-.link a {
+.link p {
+  color: #ffffff;
+}
+
+a {
   text-decoration: none;
   color: #ffffff;
   padding-top: 0.3rem;
 }
-.link p {
-  color: #ffffff;
+
+.Footerbackground a:hover {
+  text-decoration: underline;
 }
 
 button {

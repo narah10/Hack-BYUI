@@ -7,9 +7,10 @@
 .items {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     row-gap: 1rem;
     width: 100%;
+    align-items: center;
     
 }
 
@@ -28,7 +29,7 @@
     .items {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         row-gap: 2rem;
     }
 
