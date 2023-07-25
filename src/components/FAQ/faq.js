@@ -1,10 +1,8 @@
- import Navbar from "../navbar";
- import Header from "../header";
- import Footer from "../footer";
- import React from 'react';
- import "./faq.css"
-
-
+import Navbar from "../navbar";
+import Header from "../header";
+import Footer from "../footer";
+import React from "react";
+import "./faq.css";
 
 const FaqItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -17,7 +15,7 @@ const FaqItem = ({ question, answer }) => {
     <div className="faq-item">
       <div className="faq-question" onClick={toggleAccordion}>
         {question}
-        <span className={`arrow ${isOpen ? 'open' : ''}`}>&#9660;</span>
+        <span className={`arrow ${isOpen ? "open" : ""}`}>&#9660;</span>
       </div>
       {isOpen && <div className="faq-answer">{answer}</div>}
     </div>
@@ -70,7 +68,17 @@ function FAQ() {
       question: "How can participants get involved in HACK-BYU-I?",
       answer:
         "To participate in HACK-BYU-I, students must pre-register and submit a proposal. The event is free to attend, and participants will have the opportunity to compete, learn, network, and be challenged.",
-    }
+    },
+
+    {
+      question: "Where will this event take place?",
+      answer: "510 S Center St, Rexburg, ID 83460",
+    },
+
+    {
+      question: "Contact Information:",
+      answer: "hackbyui-csee-cit@webmailbyui.onmicrosoft.com",
+    },
   ];
 
   return (
@@ -80,7 +88,12 @@ function FAQ() {
       <div className="faq-accordion">
         <h1>Frequently Asked Questions</h1>
         {faqData.map((faq, index) => (
-          <FaqItem key={index} question={faq.question} answer={faq.answer} style={{fontSize: "1rem"}}/>
+          <FaqItem
+            key={index}
+            question={faq.question}
+            answer={faq.answer}
+            style={{ fontSize: "1rem" }}
+          />
         ))}
       </div>
       <Footer />
@@ -89,5 +102,3 @@ function FAQ() {
 }
 
 export default FAQ;
-
-
