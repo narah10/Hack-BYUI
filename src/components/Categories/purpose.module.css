@@ -15,25 +15,3 @@
 .container p{
     font-size: 1rem;
 }
-
-/* -------------------------------------------------------- */
-
-/* S M A L L   V I E W */
-@media screen and (max-width: 37.5em) {
-
-}
-
-/* -------------------------------------------------------- */
-
-/* M E D I U M   V I E W */
-@media only screen and (min-width: 37.5em) {
-
-}
-
-
-/* -------------------------------------------------------- */
-
-/* L A R G E   V I E W */
-@media only screen and (min-width: 64em) {
-
-}

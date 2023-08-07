@@ -23,13 +23,20 @@
     font-size: 1rem;
 }
 
-li {
-    padding-bottom: 1.5rem;
+.box li {
+    padding-bottom: 1rem;
 }
 
 .purposeContainer {
     margin: 2.5rem auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    
+  }
+
+/* L A R G E   V I E W */
+@media only screen and (min-width: 64em) {
+    .purposeContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
   }

@@ -5,7 +5,7 @@
 
 .bodycontainer {
   max-width: 80%;
-  margin: 5rem auto;
+  margin: 1rem auto;
   padding: 0;
 }
 
@@ -20,22 +20,18 @@
 }
 
 
-
-/* -------------------------------------------------------- */
-
-/* M E D I U M   V I E W */
-@media only screen and (min-width: 37.5em) {
-
-}
-
-/* -------------------------------------------------------- */
-
 /* L A R G E   V I E W */
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 400px) {
   .cardContained {
     max-width: 80%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 2rem;
   }
+
+  .bodycontainer {
+  margin: 5rem auto;
+  }
 }
+
+

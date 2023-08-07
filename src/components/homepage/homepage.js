@@ -29,7 +29,6 @@ function Homepage() {
       <div class={home.moreInfo}>
         <p>The hackathon will feature four challenge categories that focus on 
           different aspects of computing in the community. </p>
-          {/* <button><Link to="/Categories">Explore Categories</Link></button> */}
         </div>
       <div class={home.cardBackground}>
         <div class={home.cardContainer}>
@@ -50,7 +49,6 @@ function Homepage() {
             title="Collaboration and Leadership"
           />
         </div>
-        
       </div>
       <LeftSide purpose="Register Now" body="Are you excited to demonstrate your 
       problem-solving skills in a friendly and collaborative environment? 

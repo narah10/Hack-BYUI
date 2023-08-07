@@ -6,7 +6,7 @@
 
 .items {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     row-gap: 1rem;
     width: 100%;
@@ -16,12 +16,12 @@
 
 .items img {
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
     display: block;
 }
 
 /* L A R G E   V I E W */
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 400px) {
     .container {
         max-width: 80%;
         margin: 3.5rem auto;
@@ -33,6 +33,9 @@
         row-gap: 2rem;
     }
 
+    .items img {
+    width: 50%;
+}
     h2 {
         font-size: 2rem;
     }

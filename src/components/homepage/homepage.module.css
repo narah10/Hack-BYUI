@@ -13,11 +13,11 @@ body {
 }
 
 .target {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .titles img {
-  width: 6%;
+  width: 55px;
   padding: 0px;
   margin: 0px;
 }
@@ -45,14 +45,6 @@ body {
   padding: 2rem 0;
 }
 
-/* -------------------------------------------------------- */
-
-/* M E D I U M   V I E W */
-@media only screen and (min-width: 37.5em) {
-
-}
-
-/* -------------------------------------------------------- */
 
 /* L A R G E   V I E W */
 @media only screen and (min-width: 64em) {
@@ -69,6 +61,14 @@ body {
 
   .cardBackground {
     margin-bottom: 6rem;
+  }
+
+  .target {
+  font-size: 2.5rem;
+  }
+
+  .titles img {
+  width: 6%;
   }
 }
 

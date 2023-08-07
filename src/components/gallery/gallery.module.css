@@ -4,14 +4,23 @@
     text-align: center;
 }
 
-.images {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2rem;
 
-}
 
 .images img{
     width: 100%;
-    padding: 1rem; 
+    padding: 1rem 0; 
 }
+
+/* L A R G E   V I E W */
+@media only screen and (min-width: 64em) {
+    .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2rem;
+    }  
+
+    .images img{
+        padding: 1rem; 
+    }
+  
+  }

@@ -72,12 +72,12 @@ function FAQ() {
 
     {
       question: "Where will this event take place?",
-      answer: "510 S Center St, Rexburg, ID 83460",
+      answer: "The hackathon will be held at the Science & Technology Center (STC), 510 S Center St, Rexburg, ID 83460. Parking information will be provided through an informational email received after registration",
     },
 
     {
-      question: "Contact Information:",
-      answer: "hackbyui-csee-cit@webmailbyui.onmicrosoft.com",
+      question: "Any additional questions?",
+      answer: "Contact us through hackbyui-csee-cit@webmailbyui.onmicrosoft.com",
     },
   ];
 

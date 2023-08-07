@@ -1,41 +1,31 @@
 /*Container*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+.totalContainer {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  top: 0;
+}
+
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   font-family: "Montserrat", sans-serif;
   align-items: center;
-  position: fixed;
-  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
+
 
 /*Logo*/
 .logoContainer img {
-  width: 50px;
-  margin: auto;
-}
-
-
-/*Links*/
-.linksContainer {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.linksContainer a {
-  margin-left: auto;
-  margin-right: auto;
-  text-decoration: none;
+  width: 100px;
+  margin: 1rem;
 }
 
 /*Button*/
 .registerButtonDiv {
-  margin-left: auto;
-  margin-right: auto;
+  display: none;
 }
 
 button {
@@ -62,57 +52,20 @@ button:hover {
 color:#18a0fb;
 }
 
-/* -------------------------------------------------------- */
-
-/* S M A L L   V I E W */
-@media screen and (max-width: 37.5em) {
-
-
-}
-
-/* -------------------------------------------------------- */
-
-/* M E D I U M   V I E W */
-@media only screen and (min-width: 37.5em) {
-  .container {
-    width: unset;
-    max-width: 80%;
-    padding: 1.5rem;
-  }
-
-  /*Logo*/
-  .logoContainer img {
-    width: 50px;
-    /* max-width: 30%;
-    min-width: 30%; */
-    padding-left: 40%;
-  }
-
-  /*Links*/
-  .linksContainer a {
-    font-size: .8rem;
-    padding: 1rem;
-    color: #18a0fb;
-    font-weight: 600;
-  }
-
-}
-
-/* -------------------------------------------------------- */
 
 /* L A R G E   V I E W */
 @media only screen and (min-width: 64em) {
 
   .container {
-    width: unset;
-    max-width: 100%;
-    padding: 0;
+    max-width: 70vw;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
   }
+
 
   /*Logo*/
   .logoContainer img {
     width: 150px;
-    padding-left: 50%;
   }
 
   /*Links*/
@@ -122,5 +75,10 @@ color:#18a0fb;
     color: #082437;
   }
 
+  .registerButtonDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-
+ 
