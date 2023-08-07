@@ -29,17 +29,15 @@ function Footer() {
         <Link to="/FAQ">
           <a>FAQ</a>
         </Link>
-        <Link to="">
+        <Link to="/Gallery">
           <a>Gallery</a>
         </Link>
-            {/* <a href="#">Volunteer</a>
-            <a href="#">Location</a> */}
           </div>
         </div>
         <div>
           <h3>Our Team</h3>
           <p>Want to meet the amazing team that made all this happen?</p>
-          <button><a href="/Team">Learn More</a></button>
+          <button><a href="/Team">View Team</a></button>
         </div>
       </div>
       <p id={footer.copyright}>

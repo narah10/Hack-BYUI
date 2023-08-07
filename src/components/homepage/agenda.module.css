@@ -21,6 +21,7 @@
     border-radius: 20px;
     padding: 1rem;
     padding-left: 2rem;
+    margin: .5rem -1.5rem;
 }
 
 .title {
@@ -48,13 +49,6 @@
 }
 
 
-/* M E D I U M   V I E W */
-@media only screen and (min-width: 37.5em) {
-
-}
-
-/* -------------------------------------------------------- */
-
 /* L A R G E   V I E W */
 @media only screen and (min-width: 64em) {
     .bothContainer {
@@ -65,6 +59,8 @@
 
     .day1 , .day2 {
         width: 70%;
+        margin: 0;
+
     }
 
     .day1 {

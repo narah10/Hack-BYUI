@@ -1,6 +1,6 @@
 .faq-accordion {
   text-align: center;
-  max-width: 50%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 20px;
   margin-bottom: 10px;
@@ -38,26 +38,10 @@
   text-align: left;
 }
 
-
-
-/* -------------------------------------------------------- */
-
-/* S M A L L   V I E W */
-@media screen and (max-width: 37.5em) {
-  
-
-}
-
-/* -------------------------------------------------------- */
-
-/* M E D I U M   V I E W */
-@media only screen and (min-width: 37.5em) {
-
-}
-
-/* -------------------------------------------------------- */
-
 /* L A R G E   V I E W */
 @media only screen and (min-width: 64em) {
+  .faq-accordion {
+    max-width: 50%;
+  }
 
 }

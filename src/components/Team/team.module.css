@@ -5,6 +5,7 @@
 
 .teamContainer {
     display: flex;
+    flex-direction: column;
 }
 
 .box {
@@ -13,13 +14,14 @@
 
 .fall2023Team {
     display: flex;
+    flex-direction: column;
 }
 
 .teams {
     background-color:#082437;
     border-radius: 25px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 500px;
+    width: 80%;
     padding: 1rem 2rem;
     margin: 1rem auto;
     color: #ffffff;
@@ -33,9 +35,28 @@
     display: block;
     padding: .5rem;
     padding-left: 0;
+    color: white;
+    text-decoration: none;
 }
 
 .organizers a:hover, .developers a:hover {
     text-decoration: underline;
     color: #18A0FB;
+}
+
+
+@media only screen and (min-width: 400px) {
+    .teamContainer {
+        flex-direction: row;
+    }
+
+    .fall2023Team {
+        flex-direction: row;
+    }
+
+    .teams {
+        width: 500px;
+        
+    }  
+    
 }

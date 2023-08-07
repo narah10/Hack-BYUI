@@ -37,6 +37,7 @@ function team() {
                             <a href="https://www.linkedin.com/in/narahkwak">Na Rah Hernandez</a>
                             <a href="https://www.linkedin.com/in/kuan-hsueh-chen-337223223">Kuan Hsueh Chen</a>
                             <a href="https://www.linkedin.com/in/shelton-macamo-604b001bb">Shelton Macamo</a>
+                            <a href='https://www.linkedin.com/in/danny-hernandez-074037127/'>Danny Hernandez</a>
                         </div>
                     </div>
                 </div>

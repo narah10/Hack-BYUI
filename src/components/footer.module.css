@@ -37,10 +37,11 @@
   color: #ffffff;
 }
 
-a {
+.Footerbackground a {
   text-decoration: none;
   color: #ffffff;
-  padding-top: 0.3rem;
+  padding-top: .7rem;
+  padding-bottom: 0.3rem;
 }
 
 .Footerbackground a:hover {
@@ -51,18 +52,8 @@ button {
   cursor: pointer;
 }
 
-/* -------------------------------------------------------- */
-
-/* M E D I U M   V I E W */
-@media only screen and (min-width: 37.5em) {
-
-
-}
-
-/* -------------------------------------------------------- */
-
 /* L A R G E   V I E W */
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 400px) {
   .backgroundContainer {
     max-width: 80%;
     display: grid;
@@ -72,5 +63,9 @@ button {
     margin: 0 auto;
     padding: 2rem 0;
     text-align: left;
+  }
+
+  a {
+    padding-top: 0.3rem;
   }
 }

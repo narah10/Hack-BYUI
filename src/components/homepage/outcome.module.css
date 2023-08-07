@@ -17,15 +17,6 @@
     font-size: 1rem;
     line-height: 1rem;
   }
-  
-  /* -------------------------------------------------------- */
-
-/* M E D I U M   V I E W */
-@media only screen and (min-width: 37.5em) {
-
-}
-
-/* -------------------------------------------------------- */
 
 /* L A R G E   V I E W */
 @media only screen and (min-width: 64em) {
