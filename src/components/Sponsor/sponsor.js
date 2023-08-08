@@ -1,9 +1,10 @@
 import React from "react";
 import sponsor from "./sponsor.module.css"
-import byuilogo from "../assets/byui_logo.png"
 import github from "../assets/github-logo.svg"
 import standOut from "../assets/stand-out-stickers-logo.png"
 import frozen from "../assets/frozenYoghurt.png"
+import verizon from "../assets/verizon.png"
+
 
 function Sponsor() {
     return (
@@ -13,6 +14,7 @@ function Sponsor() {
                 <img src={github}/>
                 <img src={standOut}/>
                 <img src={frozen}/>
+                <img src={verizon}/>
             </div>
         </div>
     )
