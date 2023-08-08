@@ -22,24 +22,24 @@ export default function Navbar() {
               <div className="hamburger" onClick={toggleHamburger} ><Hamburger /></div>
               <ul >
                   <li>
-                    <Link to='/Homepage'>
+                    <a href='/Homepage'>
                       Home
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to='/Categories'>
+                    <a href='/Categories'>
                     Categories
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to='/FAQ'>
+                    <a href='/FAQ'>
                     FAQ
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to='/Gallery'>
+                    <a href='/Gallery'>
                     Gallery
-                    </Link>
+                    </a>
                   </li>
               </ul>
           </div>

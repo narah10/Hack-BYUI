@@ -19,19 +19,19 @@ function Footer() {
         <div>
           <h3>Links</h3>
           <div class={footer.link}>
-          <Link to="/Homepage">
+          <a href="/Homepage">
           <a>Home</a>
-        </Link>
-        <Link to="/Categories">
+        </a>
+        <a href="/Categories">
           <a>Categories</a>
-        </Link>
+        </a>
 
-        <Link to="/FAQ">
+        <a href="/FAQ">
           <a>FAQ</a>
-        </Link>
-        <Link to="/Gallery">
+        </a>
+        <a href="/Gallery">
           <a>Gallery</a>
-        </Link>
+        </a>
           </div>
         </div>
         <div>

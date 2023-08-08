@@ -13,7 +13,7 @@ export default function Hackathon() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/*" element={<App />} />
         <Route path="/Homepage" element={<Homepage />} />
         <Route path="/FAQ" element={<FAQ />} />
         <Route path="/Location" element={<Location />} />
