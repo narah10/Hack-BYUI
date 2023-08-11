@@ -1,62 +1,70 @@
 .container {
-    max-width: 80%;
-    margin: 0 auto;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .teamContainer {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .box {
-    text-align: center;
+  text-align: center;
 }
 
 .fall2023Team {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .teams {
-    background-color:#082437;
-    border-radius: 25px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 80%;
-    padding: 1rem 2rem;
-    margin: 1rem auto;
-    color: #ffffff;
-}   
-
-.organizers, .developers {
-    width: 100%;
+  background-color: #082437;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 80%;
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  color: #ffffff;
+  text-align: center;
 }
 
-.organizers a, .developers a {
-    display: block;
-    padding: .5rem;
-    padding-left: 0;
-    color: white;
-    text-decoration: none;
+.organizers,
+.developers {
+  width: 100%;
 }
 
-.organizers a:hover, .developers a:hover {
-    text-decoration: underline;
-    color: #18A0FB;
+.organizers a,
+.developers a {
+  display: block;
+  padding: 0.5rem;
+  padding-left: 0;
+  color: white;
+  text-decoration: none;
 }
 
+.organizers a:hover,
+.developers a:hover {
+  text-decoration: underline;
+  color: #18a0fb;
+}
 
-@media only screen and (min-width: 400px) {
-    .teamContainer {
-        flex-direction: row;
-    }
+@media only screen and (min-width: 450px) {
+  .fall2023Team {
+    flex-direction: row;
+  }
+}
 
-    .fall2023Team {
-        flex-direction: row;
-    }
+@media only screen and (min-width: 1400px) {
+  .teamContainer {
+    flex-direction: row;
+  }
 
-    .teams {
-        width: 500px;
-        
-    }  
-    
+  .fall2023Team {
+    flex-direction: row;
+  }
+
+  .teams {
+    width: 500px;
+    text-align: left;
+  }
 }
