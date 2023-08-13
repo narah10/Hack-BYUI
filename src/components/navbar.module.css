@@ -1,5 +1,5 @@
 /*Container*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .totalContainer {
   position: fixed;
@@ -15,7 +15,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
 
 /*Logo*/
 .logoContainer img {
@@ -45,23 +44,19 @@ button a {
 
 button:hover {
   background-color: #135c9d;
-  transition: background-color .3s;
-  
+  transition: background-color 0.3s;
 }
 .linksContainer a:hover {
-color:#18a0fb;
+  color: #18a0fb;
 }
-
 
 /* L A R G E   V I E W */
 @media only screen and (min-width: 64em) {
-
   .container {
     max-width: 70vw;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
 
   /*Logo*/
   .logoContainer img {
@@ -81,4 +76,3 @@ color:#18a0fb;
     margin-right: auto;
   }
 }
- 
