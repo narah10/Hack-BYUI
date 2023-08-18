@@ -15,9 +15,7 @@ function Footer() {
           <Link to="https://instagram.com/hack_byui?igshid=Y2IzZGU1MTFhOQ==">
             <p>Instagram</p>
           </Link>
-          <a href="mailto:hackbyui-csee-cit@webmailbyui.onmicrosoft.com">
-            Email
-          </a>
+          <a href="mailto:dau21001@byui.edu">Email</a>
           <Link to="https://goo.gl/maps/uERoM6fRCYwzxXqy6">
             <p>Location</p>
           </Link>

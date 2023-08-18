@@ -55,11 +55,11 @@ export default function Navbar() {
             width: "10%",
             zIndex: "10000",
           }}
-          href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=blue"
+          href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=blue"
           target="_blank"
         >
           <img
-            src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-blue.svg"
+            src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-blue.svg"
             alt="Major League Hacking 2024 Hackathon Season"
             style={{ width: "100%" }}
           />

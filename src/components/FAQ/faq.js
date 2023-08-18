@@ -72,12 +72,39 @@ function FAQ() {
 
     {
       question: "Where will this event take place?",
-      answer: "The hackathon will be held at the Science & Technology Center (STC), 510 S Center St, Rexburg, ID 83460. Parking information will be provided through an informational email received after registration",
+      answer:
+        "The hackathon will be held at the Science & Technology Center (STC), 510 S Center St, Rexburg, ID 83460. Parking information will be provided through an informational email received after registration",
     },
 
     {
       question: "Any additional questions?",
-      answer: "Contact us through hackbyui-csee-cit@webmailbyui.onmicrosoft.com",
+      answer:
+        "Contact us through hackbyui-csee-cit@webmailbyui.onmicrosoft.com",
+    },
+
+    {
+      question: "What is the MLH Code of Conduct",
+      answer: (
+        <p style={{ fontSize: "16px" }}>
+          Be respectful. Harassment and abuse are never tolerated. If you are in
+          a situation that makes you uncomfortable at an MLH Member Event, if
+          the event itself is creating an unsafe or inappropriate environment,
+          or if interacting with a MLH representative or event organizer makes
+          you uncomfortable, please report it using the procedures included in
+          this document. For more details view the{" "}
+          <a
+            href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+            className="mlh_coc"
+            style={{
+              fontWeight: "bold",
+
+              color: "#082437",
+            }}
+          >
+            MLH Code of Conduct
+          </a>
+        </p>
+      ),
     },
   ];
 
