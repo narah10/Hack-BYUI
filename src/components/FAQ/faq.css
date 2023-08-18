@@ -6,21 +6,27 @@
   margin-bottom: 10px;
 }
 
-
 .faq-item {
   margin-bottom: 20px;
 }
 
+.mlh_coc {
+  text-decoration: none;
+}
+
+.mlh_coc:hover {
+  text-decoration: underline;
+}
+
 .faq-question {
   font-size: 1.2rem;
-  background-color: #EDF8FF;
+  background-color: #edf8ff;
   padding: 1.5rem;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  
 }
 
 .arrow {
@@ -32,7 +38,7 @@
 }
 
 .faq-answer {
-  background-color: #EDF8FF;
+  background-color: #edf8ff;
   padding: 1.5rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left;
@@ -43,5 +49,4 @@
   .faq-accordion {
     max-width: 50%;
   }
-
 }
