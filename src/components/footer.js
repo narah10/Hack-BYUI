@@ -12,7 +12,7 @@ function Footer() {
         </div>
         <div>
           <h3>Contact</h3>
-          <Link to="https://instagram.com/hack_byui?igshid=Y2IzZGU1MTFhOQ==">
+          <Link to="https://www.instagram.com/ihack_byui/?igshid=MzRlODBiNWFlZA%3D%3D">
             <p>Instagram</p>
           </Link>
           <a href="mailto:dau21001@byui.edu">Email</a>
