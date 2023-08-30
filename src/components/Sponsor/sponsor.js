@@ -19,6 +19,13 @@ function Sponsor() {
         <img src={byui_cit} />
         <img src={byui_cse} />
       </div>
+      <p style={{ paddingTop: "50px" }}>
+        Want to be a part of our innovation journey? Reach out to become a
+        sponsor today!
+      </p>
+      <button>
+        <a href="mailto:dau21001@byui.edu">Become a Sponsor</a>
+      </button>
     </div>
   );
 }
