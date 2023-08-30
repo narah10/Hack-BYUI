@@ -13,11 +13,11 @@ function Header() {
         <div className={header.content}>
           <h2>Welcome</h2>
           <p>
-            I-Hack is an exciting event that combines learning, 
-            networking, and problem-solving. Participants collaborate with 
-            like-minded individuals, attend workshops, and network with 
-            professionals. It's a platform to showcase skills, have fun, and 
-            explore career opportunities in a dynamic environment.
+            Embark on an unforgettable journey with I-Hack! Join a community of
+            passionate learners, connect with experienced professionals, and
+            ignite your future. Here, your skills take flight, and career
+            possibilities shine bright, all within a welcoming and supportive
+            space.
           </p>
         </div>
       </div>
