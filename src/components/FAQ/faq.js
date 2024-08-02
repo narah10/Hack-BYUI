@@ -81,6 +81,11 @@ function FAQ() {
       answer:
         "Contact us through hackbyui-csee-cit@webmailbyui.onmicrosoft.com",
     },
+    {
+      question: "Are we having one in 2024?",
+      answer:
+        "Yes we are!!",
+    }
 
     {
       question: "What is the MLH Code of Conduct",
