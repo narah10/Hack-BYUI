@@ -84,8 +84,8 @@ function FAQ() {
     {
       question: "Are we having one in 2024?",
       answer:
-        "Yes we are!!",
-    }
+        "Yes we are!!"
+    },
 
     {
       question: "What is the MLH Code of Conduct",
