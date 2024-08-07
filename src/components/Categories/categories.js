@@ -12,53 +12,66 @@ function categories() {
     <div>
       <Navbar />
       <Header />
-      
-      <div className={categoriess.container}> 
+
+      <div className={categoriess.container}>
         <Agendaleft
           purpose="Categories"
-          body=" The hackathon will feature four challenge categories that focus on different aspects of computing in the community. These categories are Learning and Academic, Innovation and Creativity, Media and Communication, and Collaboration and Leadership. Here are some examples of what can be created in each category:"
+          body=" The main theme of the Hackathon is Tech and Lifestyles: Bridging the Gap. The hackathon will feature four challenge categories that focus on different aspects of computing in the community. These categories are Integrity and Might, Intelligence and Mind, Social and Heart, as well as Innovation and Strength. Here are some examples of what can be created in each category:"
           imageurl={Learnimage}
         />
         <div className={categoriess.purposeContainer}>
-          <Purpose 
-          heading = "Learning and Academic"
-          goal="To develop innovative solutions that enhance the quality and accessibility of education and improve the learning experience for students of all ages and backgrounds." 
-          purpose="The purpose of this category is to encourage participants to think critically and creatively about the challenges facing the education system."
+          <Purpose
+            heading="Integrity and Might"
+            goal="Our goal is to ensure integrity in our business's reputation, culture, and products. We strive to bridge the gap between ethics, quality, production, and advertising to build customer value and loyalty."
+            purpose="The purpose of this category is to emphasize that integrity is crucial to a business’s reputation, culture, and products. The effort needed, spanning from ethics to quality, production, and advertising, is fundamental to creating customer value and loyalty, which is a significant challenge that must be overcome."
           />
           <Purpose
-          heading= "Innovation and Creativity"
-          goal= "To foster the development of innovative and creative solutions that address pressing social and environmental issues and improve the quality of life for individuals and communities."
-          purpose="This category aims to inspire participants to think outside the box and tackle challenges in unique and impactful ways. By developing solutions such as carbon footprint reduction apps, assistive devices for people with disabilities, or volunteer matching websites, participants can help to address issues related to health, sustainability, and social equity. Through their work, participants can contribute to building a more resilient and vibrant community and make a positive difference in the lives of people around them."
+            heading="Intelligence and Mind"
+            goal="Our goal is to convert data into accurate information and effectively communicate it through various mediums, overcoming noise and misinformation."
+            purpose="The purpose of this category is to inspire participants to think creatively and address challenges in innovative and impactful ways. By developing solutions like carbon footprint reduction apps, assistive devices for people with disabilities, or volunteer matching websites, participants can tackle issues related to health, sustainability, and social equity. Through their efforts, participants can contribute to building a more resilient and vibrant community, making a positive difference in the lives of those around them."
           />
           <Purpose
-          heading = "Media and Communication"
-          goal = "To create innovative solutions that enhance communication and connectivity among people, and foster collaboration and understanding across different communities and cultures."
-          purpose = "The purpose of this category is to encourage participants to develop solutions that facilitate effective communication and connection in a world that is becoming increasingly interconnected. By creating solutions such as social media platforms for people with similar interests, messaging apps with advanced security features, or voice recognition programs that transcribe phone calls, participants can help to break down barriers to communication and build bridges between individuals and communities. Through their work, participants can contribute to promoting mutual understanding, respect, and collaboration in a globalized world."
+            heading="Social and Heart"
+            goal="Our goal is to foster communication, relationships, and service to better our lives, communities, and the world."
+            purpose="The purpose of this category is to highlight that as social beings, we thrive on communication, building relationships with family and friends, and serving others (both loved ones and strangers). Our aim is to improve our lives, communities, the world, and the future."
           />
           <Purpose
-          heading="Collaboration and Leadership"
-          goal="To foster the development of solutions that encourage collaboration, teamwork, and leadership among individuals and groups, and promote the development of essential skills for success in the 21st century workplace."
-          purpose="The purpose of this category is to encourage participants to think about the importance of collaboration and leadership in a world where teamwork and effective communication are essential for success. By creating solutions such as project management apps, mentorship websites, or leadership skills development platforms, participants can help to equip individuals and teams with the skills they need to succeed in their personal and professional lives. Through their work, participants can contribute to building a more collaborative and inclusive society, where everyone can reach their full potential."
+            heading="Innovation and Strength"
+            goal="Our goal is to harness creativity, technology, and resources to construct and innovate extraordinary solutions."
+            purpose="The purpose of this category is to emphasize that our creativity and curiosity propel us to take action and engage with innovative ideas, advanced technology, and global resources. This drive enables us to build, improve, and create remarkable solutions."
           />
         </div>
         <div className={categoriess.box}>
           <b>Categories Rubric</b>
-            <p>
-              <ul>
-                <li>Working Product/Prototype: Is the solution functional and solving the intended problem? (30 points)</li>
-                <li>Customer Communication: How well does the team understand the needs and wants of their target audience? (20 points)</li>
-                <li>Creative Problem-Solving: Is the solution innovative and tackling the problem in a unique way? (15 points)</li>
-                <li>User Aesthetics: Does the product have an appealing design and user interface? (15 points)</li>
-                <li>Presentation/Documentation: How well did the team present their solution and explain their thought process? (20 points)</li>
-              </ul>
-            </p>
+          <p>
+            <ul>
+              <li>
+                Working Product/Prototype: Is the solution functional and
+                solving the intended problem? (30 points)
+              </li>
+              <li>
+                Customer Communication: How well does the team understand the
+                needs and wants of their target audience? (20 points)
+              </li>
+              <li>
+                Creative Problem-Solving: Is the solution innovative and
+                tackling the problem in a unique way? (15 points)
+              </li>
+              <li>
+                User Aesthetics: Does the product have an appealing design and
+                user interface? (15 points)
+              </li>
+              <li>
+                Presentation/Documentation: How well did the team present their
+                solution and explain their thought process? (20 points)
+              </li>
+            </ul>
+          </p>
         </div>
       </div>
       <Footer />
-
-
     </div>
-  )
+  );
 }
 
 export default categories

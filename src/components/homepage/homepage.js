@@ -34,10 +34,10 @@ function Homepage() {
       </div>
       <div class={home.cardBackground}>
         <div class={home.cardContainer}>
-          <Card imageurl={computer} title="Learning and Academic" />
-          <Card imageurl={lightbulb} title="Innovation and Creativity" />
-          <Card imageurl={media} title="Media and Communication" />
-          <Card imageurl={team} title="Collaboration and Leadership" />
+          <Card imageurl={computer} title="Inegrity and Might" />
+          <Card imageurl={lightbulb} title="Intelligence and Mind" />
+          <Card imageurl={media} title="Social and Heart" />
+          <Card imageurl={team} title="Innovation and Strength" />
         </div>
       </div>
       <LeftSide
