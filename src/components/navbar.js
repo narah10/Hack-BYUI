@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Hamburger from "./hamburger";
 import navbar from "./navbar.module.css";
-import ihack from "./assets/ihack-logo.png";
+import ihack from "./assets/new-ihack-logo.png";
+// import ihack2024 from "./assets/ihack2024.png";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
