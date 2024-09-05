@@ -115,7 +115,7 @@ export default function Navbar() {
 
                   
 
-                  @media (min-width: 450px){
+                  @media (min-width: 50px){
                   .hamburger{
                     display: none;
                     
