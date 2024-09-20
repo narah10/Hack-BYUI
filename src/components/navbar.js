@@ -39,7 +39,7 @@ export default function Navbar() {
         </div>
         <div className={navbar.registerButtonDiv}>
           <button>
-            <Link to="https://www.eventbrite.com/e/hack-byu-i-tickets-601636108797">
+            <Link to="https://www.eventbrite.com/e/byu-i-i-hack-2024-tickets-952931893947">
               Pre-Register
             </Link>
           </button>
@@ -60,7 +60,7 @@ export default function Navbar() {
           target="_blank"
         >
           <img
-            src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-blue.svg"
+            src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-blue.svg"
             alt="Major League Hacking 2024 Hackathon Season"
             style={{ width: "100%" }}
           />

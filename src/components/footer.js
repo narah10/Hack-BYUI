@@ -1,6 +1,6 @@
 import React from "react";
 import footer from "./footer.module.css";
-import ihack from "./assets/ihack.png";
+import ihack from "./assets/new-ihack-logo.png";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -15,7 +15,7 @@ function Footer() {
           <Link to="https://www.instagram.com/ihack_byui/?igshid=MzRlODBiNWFlZA%3D%3D">
             <p>Instagram</p>
           </Link>
-          <a href="mailto:dau21001@byui.edu">Email</a>
+          <a href="mailto:hackathonbyui@gmail.com">Email</a>
           <Link to="https://goo.gl/maps/uERoM6fRCYwzxXqy6">
             <p>Location</p>
           </Link>
@@ -47,7 +47,7 @@ function Footer() {
         </div>
       </div>
       <p id={footer.copyright}>
-        Copyright &copy; 2023 BYUI. All rights reserved{" "}
+        Copyright &copy; 2024 BYUI. All rights reserved{" "}
       </p>
     </div>
   );

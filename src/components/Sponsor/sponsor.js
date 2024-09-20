@@ -24,7 +24,7 @@ function Sponsor() {
         sponsor today!
       </p>
       <button>
-        <a href="mailto:dau21001@byui.edu">Become a Sponsor</a>
+        <a href="mailto:hackathonbyui@gmail.com">Become a Sponsor</a>
       </button>
     </div>
   );
