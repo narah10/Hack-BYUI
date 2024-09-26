@@ -32,7 +32,7 @@ function FAQ() {
     {
       question: "What is I-Hack?",
       answer:
-        "I-Hack is a 24-hour hackathon competition that will take place on October 20th and 21st, 2024, hosted by the BYU-Idaho CSEE/CIT Departments and department societies leadership. The event is free to attend and open to students from other universities in Idaho and Utah.",
+        "I-Hack is a 24-hour hackathon competition that will take place on October 18th and 19th, 2024, hosted by the BYU-Idaho CSEE/CIT Departments and department societies leadership. The event is free to attend and open to students from other universities in Idaho and Utah.",
     },
     {
       question: "What is the theme of I-Hack?",
@@ -50,12 +50,6 @@ function FAQ() {
       question: "How many teams can participate in I-Hack?",
       answer:
         "There is a limit of 76 teams for I-Hack, with a team size limitation of 2-4 members. To participate, students must pre-register and submit a proposal detailing who in the community they have contacted, what problem they are solving, and how they plan to do it. The proposal review process will determine if they are selected to participate. This process is intended to help participants anticipate problems that might occur and ensure that they are ready to compete. Due to space, logistics, and building code, we only allow 76 teams, 19 per category.",
-    },
-
-    {
-      question: "What is the agenda for I-Hack?",
-      answer:
-        "The event will begin on Friday, October 20th, with check-in and an opening social at 4:30 PM. Coding will begin at 5:30 PM and continue for 24 hours. Throughout the evening, morning, and afternoon, there will be workshops, activities, interviewing, networking, and mentoring activities. On Saturday, October 21st, all teams must stop coding at 5:30 PM. Teams will then have 30 minutes to prepare a 5-minute presentation and turn it in by 6:00 PM. Dinner will be served at 6:00 PM, followed by judging and an awards ceremony at 7:00 PM. The event will end at 8:00 PM.",
     },
 
     {
