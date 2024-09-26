@@ -8,7 +8,7 @@ function Header() {
         <div className={header.mainHeader}>
           <h1>I-Hack</h1>
           <h2>2024</h2>
-          <h3>Oct 19th - 20th</h3>
+          <h3>Oct 18th - 19th</h3>
         </div>
         <div className={header.content}>
           <h2>Welcome</h2>

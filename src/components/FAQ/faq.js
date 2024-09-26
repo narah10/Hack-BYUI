@@ -32,12 +32,12 @@ function FAQ() {
     {
       question: "What is I-Hack?",
       answer:
-        "I-Hack is a 24-hour hackathon competition that will take place on October 20th and 21st, 2023, hosted by the BYU-Idaho CSEE/CIT Departments and department societies leadership. The event is free to attend and open to students from other universities in Idaho and Utah.",
+        "I-Hack is a 24-hour hackathon competition that will take place on October 20th and 21st, 2024, hosted by the BYU-Idaho CSEE/CIT Departments and department societies leadership. The event is free to attend and open to students from other universities in Idaho and Utah.",
     },
     {
       question: "What is the theme of I-Hack?",
       answer:
-        "The theme for I-Hack 2023 is 'Computing in the Community.' The event is an opportunity for participants to work on software prototypes that solve real-world problems, with the help of industry and academic mentors.",
+        "The theme for I-Hack 2024 is 'Computing in the Community.' The event is an opportunity for participants to work on software prototypes that solve real-world problems, with the help of industry and academic mentors.",
     },
 
     {

@@ -20,7 +20,7 @@ function Gallery() {
             <Navbar />
             <Header />
             <div className={gallery.galleryContainer}>
-                <h1>Fall 2022 Hackathon</h1>
+                <h1>Fall 2023 Hackathon</h1>
                 <div className={gallery.images}>
                     <img src={image1}/>
                     <img src={image2}/>
