@@ -13,7 +13,7 @@ function Agenda() {
           <div className={agenda.title}>
             {/* Friday */}
             <h4>Day 1</h4>
-            <p>Friday, October 19th (MST)</p>
+            <p>Friday, October 18th (MST)</p>
           </div>
           <div className={agenda.schedule}>
             <div class={agenda.split}>
@@ -63,7 +63,7 @@ function Agenda() {
         <div className={agenda.day2}>
           <div className={agenda.title}>
             <h4>Day 2</h4>
-            <p>Saturday, October 20th (MST)</p>
+            <p>Saturday, October 19th (MST)</p>
           </div>
           <div className={agenda.schedule}>
             <div class={agenda.split}>
