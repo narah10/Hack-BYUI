@@ -5,6 +5,7 @@ import frozen from "../assets/frozenYoghurt.png";
 import verizon from "../assets/verizon.png";
 import byui_cit from "../assets/byui-cit-dep.png";
 import byui_cse from "../assets/byui-cse-dep.png";
+import fresco from "../assets/fresco.png";
 
 function Sponsor() {
   return (
@@ -16,6 +17,7 @@ function Sponsor() {
         <img src={verizon} />
         <img src={byui_cit} />
         <img src={byui_cse} />
+        <img src={fresco} />
       </div>
       <p style={{ paddingTop: "50px" }}>
         Want to be a part of our innovation journey? Reach out to become a
