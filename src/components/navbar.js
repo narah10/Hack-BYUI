@@ -16,7 +16,7 @@ export default function Navbar() {
     <div className={navbar.totalContainer}>
       <div className={navbar.container}>
         <div className={navbar.logoContainer}>
-          <img src={ihack} />
+          <img  src={ihack} alt = "logo"/>
         </div>
         <div className="navigation">
           <div className="hamburger" onClick={toggleHamburger}>
@@ -40,7 +40,7 @@ export default function Navbar() {
         <div className={navbar.registerButtonDiv}>
           <button>
             <Link to="https://www.eventbrite.com/e/byu-i-i-hack-2024-tickets-952931893947">
-              Pre-Register
+              Register
             </Link>
           </button>
         </div>
@@ -68,9 +68,13 @@ export default function Navbar() {
       </div>
       <style jsx>
         {`
+                   
                   .navigation{
                       width: 100%;
-                      align-item: right;
+                      display: flex;
+                      justify-content: center; 
+                      align-item: center;
+                     
 
                   }
                   
@@ -81,12 +85,12 @@ export default function Navbar() {
 
                   .navigation ul{
                     display: flex;
-                    display: ${hamburgerOpen ? "inline" : "none"};
+                    display: ${hamburgerOpen ? "inline-block" : "none"};
                     left: 0;
                     width: 105%;
-                    padding-bottom: .5rem;
-                    margin-left: -3rem;
-                    position: fixed;
+                    // padding-bottom: .5rem;
+                    // margin-left: -3rem;
+                    padding: 0;
                     text-align: center;
                     background-color: #18a0fb;
                 }
@@ -115,20 +119,23 @@ export default function Navbar() {
 
                   
 
-                  @media (min-width: 50px){
+                  @media (min-width: 600px){
                   .hamburger{
                     display: none;
-                    
                   }
 
                   .navigation ul li a{
                     color: #082437;
+                    
                 }
 
                   .navigation ul {
                     background-color: white;
                     display: flex;
+                    justify-content: center;
                     position: static;
+                    
+                     
                   }
 
                   .navigation{

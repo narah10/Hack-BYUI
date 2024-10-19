@@ -21,6 +21,7 @@ export default function Hackathon() {
         <Route path="/Categories" element={<Categories />} />
         <Route path="/Team" element={<Team/>} />
         <Route path="/Gallery" element={<Gallery/>}/>
+        
       </Routes>
     </Router>
   );
